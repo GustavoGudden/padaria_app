@@ -8,10 +8,11 @@ export const Container = styled.div`
   margin: auto;
   gap: 1rem;
   margin-top: 3rem;
-  background-color: #007acc;
+  background-color: #01295f;
   color: whitesmoke;
   height: 60px;
   border: 1px solid black;
+  border-radius: 7px 7px 0px 0px;
   h1 {
     font-size: 16px;
   }
@@ -25,6 +26,7 @@ export const Container = styled.div`
     border-right: 1px solid black;
 
     p {
+      color: #849324;
       padding-left: 5px;
       padding-top: 5px;
     }

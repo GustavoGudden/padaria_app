@@ -1,20 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 60% 40%;
   width: 80%;
   margin: auto;
-  color: #007acc;
+  color: #437f97;
   border-right: 1px solid black;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
+  background-color: white;
+  border-radius: 0px 0px 7px 7px;
 
   height: 500px;
 
   div {
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 1rem;
     margin-top: 7px;
     margin-bottom: 7px;
   }
@@ -29,7 +30,11 @@ export const item = styled.div`
   color: white;
   width: 90%;
   border-radius: 7px;
-  background-color: #007acc;
+  background-color: #437f97;
+
+  h1 {
+    color: #ffb30f;
+  }
 
   p {
     font-weight: 700;
@@ -42,3 +47,4 @@ export const item = styled.div`
     padding-right: 2rem;
   }
 `;
+

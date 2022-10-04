@@ -29,6 +29,7 @@ function App() {
       {/* list component aqui */}
       <ListaProdutos />
       {/* footer component */}
+    
     </>
   );
 }

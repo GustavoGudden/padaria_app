@@ -6,7 +6,7 @@ export const Header = styled.header`
   justify-content: center;
   color: white;
   width: 100%;
-  background-color: #007acc;
+  background-color: #01295f;
   height: 80px;
   padding-left: 1rem;
 `;
